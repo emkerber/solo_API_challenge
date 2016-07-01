@@ -1,15 +1,25 @@
 body {
   background-color: #deb887;
   margin: 40px 100px;
+  font-family: 'Oswald', sans-serif;
+  color: #663300;
 }
 
 h1 {
   text-align: center;
   font-size: 30px;
-  color: #663300;
+}
+
+div {
+  display: inline-block;
 }
 
 .picture {
-  margin: 60px;
-  display: inline-block;
+  float: left;
+  margin: 20px;
+  border: 10px double #663300;
+}
+
+.text {
+  display: inline;
 }
