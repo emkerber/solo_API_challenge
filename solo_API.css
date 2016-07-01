@@ -5,8 +5,11 @@ body {
   color: #663300;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
+}
+
+h1 {
   font-size: 30px;
 }
 
@@ -14,10 +17,13 @@ div {
   display: inline-block;
 }
 
+form {
+  text-align: center;
+}
+
 .picture {
   float: left;
   margin: 20px;
-  border: 10px double #663300;
 }
 
 .text {
